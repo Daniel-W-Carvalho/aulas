@@ -1,0 +1,15 @@
+/* Efeito cascata é quando a especificidade do do codigo é maior que o código anterior, pois o css le o codigo de cima para baixo, se a segunda linha do codigo for igual a primeira linha, o css irá ler a segunda linha como principal, se tiver uma terceira linha, ela que passará a ser a principal e assim por diante.*/
+
+/*ESPECIFICIDADE - se deixar o mouse em cima do seletor, verá que ele mostrará o seletor principal (1,0,0) > (0,1,1) > (0,0,1) */
+
+#meu-paragrafo {
+	background-color: violet;
+}
+
+.container-cascata p {
+	background-color: orange;
+}
+
+p {
+	background-color: lightblue;
+}

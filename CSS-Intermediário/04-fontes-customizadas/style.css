@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
+p {
+    font-size: 24px;
+    font-family: 'Fira Code', monospace;
+} /*Site do google fonts, seleciona font e vai em @import na direita, logo em seguida copia o style e coloca na aba do css. Logo em baixo no CSS Rules copia o codigo da caixa e cola no codigo css onde deseja alterar.*/

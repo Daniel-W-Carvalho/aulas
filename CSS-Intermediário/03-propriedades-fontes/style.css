@@ -1,0 +1,11 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}  /* Vai tentar carregar primeiro arial, se não tiver, vai carregar a helvetica e por ultimo a sans-serif*/
+
+
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold; /*font-weight = peso da fonte*/
+}

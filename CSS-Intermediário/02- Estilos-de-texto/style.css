@@ -1,0 +1,76 @@
+                                            /*TEXT ALIGN*/
+.alinhado-esquerda {
+    text-align: left;
+}
+
+.alinhado-direita {
+    text-align: right;
+}
+
+.alinhado-centro {
+    text-align: center;
+}
+
+.alinhado-justificado {
+    text-align: justify; }   /* Deixa o texto justificado, sem quebra de linha antes da palavra acabar, como revistas e jornais.*/
+
+.maiuscula {
+    text-transform: uppercase; /* Todas maiusculas*/
+}
+
+.minuscula {
+    text-transform: lowercase; /* Todas minusculas*/
+}
+
+.capitalizado {
+    text-transform: capitalize; /* Primeira letra de todas as palavras maisuculas*/
+}
+
+.sublinhado {
+    text-decoration: underline;
+}
+
+.linha-sobreposta {
+    text-decoration: line-through;
+}
+
+.sem-text-decoration {
+    text-decoration: none;
+}
+
+.altura-entre-linhas {
+    line-height: 40px;
+}
+
+.sombra-de-texto {
+    text-shadow: 10px 10px 1px #808080;
+}  /*Espaçamento lateral, espaçamento cima baixo e desfoque*/
+
+
+
+
+
+
+.fundo-alinhamento{
+    padding: 20px;
+    background-color: #D1C4E9;
+}
+
+.fundo-transform {
+    padding: 20px;
+    background-color: #C8E6C9;
+}
+
+.fundo-decoration {
+    padding: 20px;
+    background-color: #FFF9C4;
+}
+
+.fundo {
+    padding: 20px;
+    background-color: #ccc;
+}
+
+html {
+    font-size: 24px;
+}

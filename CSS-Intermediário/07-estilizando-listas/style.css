@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+ul {
+	/*list-style-type: circle;*/  /* Estilo dos icones da lista, bolinhas, quadrados, none etc*/
+	list-style-image: url("./image/icone\ \(1\).png"); /* Colocando uma imagem/icone no lugar das bolinhas*/
+
+	list-style: square inside url("./image/icone\ \(1\).png"); /*Inside, fica dentro da lista*/
+
+	background-color: black;
+
+	color: greenyellow;
+
+
+}
+
+ul li {
+	border: 1px solid white;
+	padding: 10px;
+}
+
+ol {
+		/*list-style-type: circle;*/  /* Estilo dos icones da lista, bolinhas, quadrados, none etc*/
+		list-style-image: url("./image/icone\ \(1\).png"); /* Colocando uma imagem/icone no lugar das bolinhas*/
+
+		list-style: square inside url("./image/icone\ \(1\).png"); /*Inside, fica dentro da lista*/
+	
+		background-color: black;
+	
+		color: greenyellow;
+}
+
+ol li {
+	border: 1px solid white;
+	padding: 10px;
+}

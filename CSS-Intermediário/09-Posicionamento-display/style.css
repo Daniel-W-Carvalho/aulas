@@ -1,0 +1,35 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 24px;
+}
+
+ul {
+	margin-bottom: 50px;
+}
+
+.em-bloco li {
+	background: aqua;
+	margin-bottom: 10px;
+	width: 100px;
+}                              /*Em bloco não conseguimos setar ou juntar no mesmo bloco, ele sempre vai até o final da pagina, não deixando ficar um ao lado do outro*/
+
+
+.em-linha li {
+	display: inline;
+	background: aqua;
+}                             /*Em linha não conseguimos setar a altura ou largura do objeto*/
+
+.em-linha-e-bloco li {
+	display: inline-block;
+	background: aqua;
+	width: 100px;
+	height: 100px;
+}                              /*Conseguimos usar alterações tanto pra linhas quanto para blocos, melhor utilização, usamos em menus de site por exemplo*/
+
+.esconder {
+	display: none;        /*Esconde da tela*/
+}

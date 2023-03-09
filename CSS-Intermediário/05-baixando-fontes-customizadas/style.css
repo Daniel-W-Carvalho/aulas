@@ -1,0 +1,11 @@
+@font-face {
+	font-family: 'Milky';
+	src: url('./fonts/MilkyNice.otf'),
+	url('./fonts/MilkyNice.ttf');
+}  
+
+/*Baixar do site DaFont, pega os arquivos .otf e .ttf , cria uma pasta dentro do arquivo que esta codando e coloca as fontes dentro da pasta. Logo sem seguida no css cria um @font-face, da um nome a fonte, no url coloca o ./ e o caminho da pasta onde se encontra as fontes*/
+
+h1 {
+	font-family: 'Milky', Arial, Helvetica, sans-serif;
+}

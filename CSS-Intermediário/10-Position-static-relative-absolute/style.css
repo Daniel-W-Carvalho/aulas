@@ -1,0 +1,45 @@
+* {
+	margin: 0;
+}
+
+.elemento {
+	color: #fff;
+	font-size: 32px;
+	width: 250px;
+	height: 250px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.elemento-estatico {
+	position: static;
+	background-color: crimson;  /*Estatico ou travado*/
+}
+
+.elemento-relativo {
+	left: 100px;
+	position: relative;
+	background-color: coral;   /*Relativo do lugar que foi criado, caso eu use o left 100px, ele vai afastar 100px da esquerda pra direita*/
+}
+
+.elemento-absoluto{
+	position: absolute;       /* define como elemento padrão da camada que ele foi criado, pode se movimentar por toda a area e sobrepor os outros elementos */
+	left: 200px;
+	background-color: darkcyan;
+}
+
+.elemento-relativo-com-filho {
+	position: relative;
+	width: 350px;
+	height: 350px;
+	background-color: rgb(214, 212, 212);
+}
+
+.elemento-absoluto-com-pai {
+	position: absolute;
+	top: 0;
+	right: 0;				/* Agora o position absolute é um div filha, esta dentro de uma relative que seria div pai, ou seja, a absolute consegue se mover apenas dentro da div pai*/
+	width: 150px;
+	height: 150px;
+	background-color: darkcyan;
+}

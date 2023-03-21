@@ -1,0 +1,17 @@
+* {
+	margin: 0;
+}
+
+body {
+	height: 1500px;
+	padding-top: 67px;
+}
+
+header {
+	font-size: 24px; 
+	position: fixed; /*Fixa o elemento na tela, mesmo quando scrollamos o mouse pra baixo ou cima*/
+	background-color: lightskyblue;
+	width: 100%;
+	padding: 20px;
+	top: 0;
+}

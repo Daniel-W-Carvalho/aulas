@@ -13,6 +13,6 @@ a:active {
 } /*Link selecionado enquanto segura no botao do mouse*/
 
 a:hover {
-	background-color: red;
+	background-color: red;  /*passando mouse por cima*/
 	color: azure;
 }

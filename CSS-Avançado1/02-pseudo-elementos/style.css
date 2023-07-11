@@ -1,0 +1,41 @@
+/* seletor::pseudo-elemento{
+    propriedade:valor;
+} */
+
+/* selecionado classe - primeiro letra */
+.first-letter::first-letter{
+    color: aqua;
+}
+
+/* selecionado primeira linha */
+.first-line::first-line{
+    color: brown;
+}
+
+
+li::marker{
+    color: rgb(233, 18, 18);
+    font-size: 25px;
+}
+
+
+/* Colocando conteudo antes dos conteudos dentro do h2 */
+/* h2::before{
+    content: url(./images/logo-leste.png);
+} */
+
+/* Colocando conteudo antes dos conteudos dentro do h2, mas modificando o conteudo */
+h2::before{
+    content: "";
+    background: url(./images/logo-leste.png) center center no-repeat;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+
+/* colocanto conteudo ao final dos conteudos dentro do h2 */
+h2::after{
+    content: url(./images/logo-leste.png);
+}
+
+

@@ -1,0 +1,33 @@
+img {
+    width: 200px;
+}
+
+/* Definir escala do item, largura e altura */
+img.scale{
+    transform: scale(3, 1);
+}
+
+/* Definir escala vertical - Y
+img{
+    transform: scaleY(3, 1);
+} */
+
+/* Definir escala horizontal - X
+img{
+    transform: scaleX(3, 1);
+} */
+
+
+/* Rodar a imagem */
+img.rotate{
+    transform: rotate(35deg);
+}
+
+/* movimentar a imagem */
+img.translate{
+    transform: translate(50px, 20px);
+}
+
+
+
+

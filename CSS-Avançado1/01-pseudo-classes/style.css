@@ -1,0 +1,38 @@
+/* seletor:pseudo-classe {
+    color:red;
+} */
+
+/* primeira filha */
+p:first-child{
+    color: aquamarine;    
+}
+
+/* ultima filha */
+p:last-child{
+    color: blueviolet;
+}
+
+/* pseudo de negação, o P que não tiverem a classe padrao se tornarão amarelas */
+/* p:not(.padrao){
+    
+} */
+
+/* Definir por posição, nth-child (2n) significa pular de 2 em 2, nth-child (odd) selecionar todos os impares, even todos os pares. */
+/* li:nth-child(2n){
+    color: rgb(38, 194, 59);
+} */
+
+/* significa pegar do segundo da lista e ir até quinto */
+/* li:nth-child(n+2):nth-child(-n+5){
+    color: brown;
+} */
+
+
+li:nth-last-child(1){
+    color: brown;
+}
+
+
+p:only-child{
+    color:rgb(46, 139, 134)
+}

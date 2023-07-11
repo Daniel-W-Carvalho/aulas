@@ -1,0 +1,41 @@
+
+/* seletor classe */
+.seletor-classe{
+    color: aqua;
+}
+
+
+/* seletor id */
+#seletor-id {
+    color: rgb(0, 255, 0);
+}
+
+
+
+  /* seletor de duas classes */
+.titulo.vermelho {
+    color: brown;
+}
+
+.titulo.azul {
+    color: rgb(17, 0, 255);
+}
+
+.titulo {
+    font-size: 30px;
+}
+
+/* seletor com virgula */
+div,span {
+    font-size: 50px;
+}
+
+/* seletor com classe filha */
+.sobre .texto {
+    color: blueviolet;
+}
+
+/* seletor com sinal de maior */
+div > p {
+    color: purple;
+}

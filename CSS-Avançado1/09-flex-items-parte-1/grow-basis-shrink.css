@@ -1,0 +1,36 @@
+.grow-1{
+    flex-grow: 1;
+}
+
+.grow-2{
+    flex-grow: 2;
+}
+
+.grow-3{
+    flex-grow: 3;
+}
+
+/*----------------------------------------------------------------------*/
+
+.basic-auto{
+    flex-basis: auto;
+}
+
+.basis-0 {
+    flex-basis: 100px;    /*flex basis mantem todos os conteudos do mesmo tamanho-largura*/
+}
+
+/*----------------------------------------------------------------------*/
+/* O flex shrink faz com que os conteudos fiquem dentro do container (caixa sem que pulem para fora da div pai, indepenente do tamanho da cada conteudo filho */
+
+.shrink-1 {
+    flex-shrink: 1;
+}
+
+.shrink-2 {
+    flex-shrink: 2;
+}
+
+.shrink-3 {
+    flex-shrink: 3;
+}

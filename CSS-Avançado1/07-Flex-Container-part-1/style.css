@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    flex-direction: row;  /*row significa começar da esquerda para direita em linha*/
+    flex-direction: row-reverse; /*row significa começar da direita para esquerda em linha, inverso do row*/
+    flex-direction: column; /*Significa deixar em coluna, começando de cima para baixo*/
+    flex-direction: column-reverse; /*Significa deixar em coluna, começando de baixo para cima, inverso do column*/
+}
+
+.container div {
+    background-color: aqua;
+    color: rgb(0, 0, 0);
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.conteudo {
+    display: flex;
+    flex-wrap: nowrap; /*Não muda nada, padrão*/
+    flex-wrap: wrap; /*Quebra quando chegar ao final da tela, respeitando os tamanhos definido*/
+    flex-wrap: wrap-reverse; /*Quebra quando chegar ao final da tela, começando de baixo para cima, invertendo a quebra de lina, inverso do wrap*/
+}
+
+.conteudo div {
+    background-color: rgb(255, 174, 0);
+    color: rgb(0, 0, 0);
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.caixa {
+    display: flex;
+    flex-flow: column wrap; /*Aqui podemos usar diretamente o flex-flow evitando flex-direction e o flex-wrap, somente colocar as 2 definições na mesma linda*/
+}
+
+.caixa div {
+    background-color: rgb(143, 2, 80);
+    color: rgb(0, 0, 0);
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}

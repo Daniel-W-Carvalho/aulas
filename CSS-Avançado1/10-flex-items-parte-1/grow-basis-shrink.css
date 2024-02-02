@@ -3,7 +3,7 @@
 }
 
 .grow-2{
-    flex-grow: 2;
+    flex-grow: 2;           /*Flex Grow,sempre crescente ou preenchendo -  te faz definir quais tamanhos do conteudo vc quer dentro de uma div, se o conteudo 1 vai ser um pouco maior que o conteudo*/
 }
 
 .grow-3{
@@ -17,11 +17,11 @@
 }
 
 .basis-0 {
-    flex-basis: 100px;    /*flex basis mantem todos os conteudos do mesmo tamanho-largura*/
+    flex-basis: 100px;    /*flex basis mantem todos os conteudos do mesmo tamanho-largura, ele define em uma propriedade qual será o tamanho de todo o conteudo dentro da div pai, por exemplo, se a DIV pai for 800px, as 4 div filhas terão 200px cada, ou seja, flex-basis:200px (Dentro do pai container de 800px)*/
 }
 
 /*----------------------------------------------------------------------*/
-/* O flex shrink faz com que os conteudos fiquem dentro do container (caixa sem que pulem para fora da div pai, indepenente do tamanho da cada conteudo filho */
+/* O flex shrink sempre diminuindo, ao contrario do grow -  faz com que os conteudos fiquem dentro do container (caixa sem que pulem para fora da div pai, indepenente do tamanho da cada conteudo filho */
 
 .shrink-1 {
     flex-shrink: 1;

@@ -1,0 +1,70 @@
+:root {
+    --text-color: hsl(227, 10%, 46%);
+    --background: hsl(185, 75%, 39%);
+}
+
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background);
+}
+
+span {
+    color: var(--text-color)
+}
+
+
+.img {
+    width: 4.375rem;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 200px;
+}
+
+.secao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+    background-color: rgb(255, 255, 255);
+    border: solid 1px rgb(255, 255, 255);
+    border-radius: 10px;
+    padding-top: 2rem;
+}
+
+.nome {
+    padding: 1.2rem 3rem;
+}
+
+.pais {
+    text-align: center;
+    width: 100%;
+    padding-bottom: 2rem;
+    border-bottom: solid 2px rgb(163, 173, 185);
+    color: var(--text-color)
+}
+
+.numbers {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    padding: 1.25rem;
+    gap: 1.25rem;
+}
+
+@media (max-width:320px) {
+    .nome {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .numbers {
+        display: flex;
+        flex-direction: column;
+    }
+}

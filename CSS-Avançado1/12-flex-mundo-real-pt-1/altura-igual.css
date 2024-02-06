@@ -1,0 +1,27 @@
+/*Flex pai, definimos que seria flex, altura de 960px e definimos que todo o conteudo pegasse 100% da tela, melhora para o Responsivo e definimos wrap para quebrar as imagens conforme fosse chegando ao final da tela, mas as imagens sempre serão do tamanho que definimos la embaixo na classe .Coluna (250px)*/
+.flex {
+  display: flex;
+  width: 960px;     
+  max-width: 100%;
+  flex-wrap: wrap;
+}
+
+/*Definindo que a imagem sempre terá todo o tamanho da coluna pai, conforme a coluna for crescendo ou esticando a imagem vai acompnhar*/
+.flex img {
+  max-width: 100%;
+}
+
+/*Definindo cor para conseguirmos visualizar tamanho da coluna, definindo que será flex, definindo em coluna para que ela se comporte como colunas e nao linhas, flex 0 para grow ficar padrao, 1 para srink ficar padrao e 250px para basis, que será o tamanho das imagens dentro de todas as colunas e por ultimo uma margem para distancia*/
+.coluna {
+  background-color: lightblue;
+  display: flex;
+  flex-direction: column;
+  flex: 0 1 250px;
+  margin: 1em;
+}
+
+/*Definindo o botão (Saiba Mais...) com flex start para que comece do lado esquerdo da coluna e margin top auto para que fique em baixo em todas as colunas*/
+.botao {
+  align-self: flex-start;
+  margin-top: auto;
+}

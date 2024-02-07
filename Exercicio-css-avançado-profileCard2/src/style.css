@@ -1,0 +1,118 @@
+:root {
+    --background: hsl(218, 23%, 16%);
+    --text-color: hsl(193, 38%, 86%);
+    --advice-card-color: hsl(217, 19%, 24%);
+    --advice-dice-color: hsl(150, 100%, 66%);
+}
+
+body {
+    height: 100vh;
+    background-color: var(--background);
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* cartao */
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--advice-card-color);
+    border: solid 0.063rem hsl(217, 19%, 24%);
+    border-radius: 0.625rem;
+}
+
+/* conteudo do cartao */
+.noticia {
+    margin: 2.0rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.aviso {
+    padding-bottom: 1.25rem;
+}
+
+span {
+    color: var(--advice-dice-color);
+    font-size: 0.625rem;
+    letter-spacing: 0.313rem;
+}
+
+p { 
+    display: flex;
+    flex-wrap: wrap;
+    width: 20rem;
+    color: var(--text-color);
+    font-size: 1.25rem;
+}
+
+.borda-pausa {
+    padding: 0rem 1.25rem;
+    width: 22.5rem;
+}
+
+/*Botão*/
+.caixa-botao {
+    transform: translate(0rem, 50%);
+}
+
+.botao {
+    background-color: var(--advice-dice-color);
+    width: 3.125rem;
+    height: 3.125rem;
+    border: solid 1px hsl(150, 100%, 66%); 
+    border-radius: 12.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dado {
+    background-color: var(--advice-dice-color);
+}
+
+@media (max-width:375px) {
+    .card {
+        width: 300px;
+    }
+
+    p {
+       width: 250px;
+       display: flex;
+       flex-wrap: wrap;
+       flex-direction: column;
+    }
+
+    .borda-pausa {
+        width: 300px;
+    }
+}
+
+@media (max-width:280px) {
+    .card {
+        width: 200px;
+    }
+
+    p {
+       width: 190px;
+       display: flex;
+       flex-wrap: wrap;
+       flex-direction: column;
+    }
+
+    .borda-pausa {
+        width: 200px;
+    }
+}
+
+
+

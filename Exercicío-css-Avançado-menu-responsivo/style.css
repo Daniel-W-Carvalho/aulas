@@ -1,0 +1,92 @@
+:root {
+    --background: hsl(103, 74%, 52%);
+}
+
+.barra-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.5rem;
+    flex-wrap: wrap;
+}
+
+.logo-e-nome {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 5.438rem;
+}
+
+.lista ul{
+    display: flex;
+    gap: 1.25rem;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+span {
+    background-color: var(--background);
+    padding: 0.438rem;
+    color: white;
+}
+
+.lista p {
+    background-color: var(--background);
+    padding: 0.438;
+    color: white;
+    border: solid 1px var(--background);
+    border-radius: 10px;
+}
+
+button {
+    background-color: var(--background);
+    padding: 0.313rem;
+    color: white;
+    border: solid 1px var(--background);
+    border-radius: 10px;
+}
+
+
+.thebank {
+        font-family: "Public Sans", sans-serif;
+        font-weight: 800; 
+}
+
+@media (max-width:375px) {
+    .barra-nav {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .logo-e-nome {
+        justify-content: center;
+        padding-bottom: 3.125rem;
+    }
+
+    .lista ul {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .lista ul li {
+        font-size: 1.875rem;
+        padding: 0.625rem;
+    }
+
+    span {
+        padding: 0.625rem 1.875rem;
+    }
+
+    .lista p {
+        font-size: 0.938rem;
+        border: solid 1px var(--background);
+        border-radius: 5px;
+    }
+}
+
+
+
+

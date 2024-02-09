@@ -1,0 +1,36 @@
+.secao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.galeria {
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    position: relative;
+}
+
+.descricao {
+    position: absolute;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+h1, p {
+    font-family: "Public Sans", sans-serif;
+    color: #ffff;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+p {
+    font-size: 17px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}

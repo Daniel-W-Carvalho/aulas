@@ -1,0 +1,39 @@
+/* Fazendo layout responsivo com Grid sem Media Queries */
+
+
+/* AUTO-FIT */
+/* O auto-fit irá expandir os elementos até cobrir todo a largura do layout e respeitará o tamanho minimo definido, como no exemplo abaixo, podemos diminuir a largura da tela mas o conteudo não reduzirá menos que 200px e quando aumentarmos a tela, o conteudo expandirá cobrindo todo layout */
+body {
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    padding: 3em;
+    grid-gap: 2em;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.container p {
+    padding: 2em;
+    border-radius: .3em;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+
+
+/* AUTO-FILL */
+/*O auto-fill será parecido com o auto fit, porém, quando aumentarmos o tamanho do layout ele não preencherá toda a tela, ele respeitará o tamanho do elemento que definimos e a partir deste tamanho criará colunas invisiveis a direita da tela, como no exemplo abaixo, se diminuirmos a tela ele quebrará as colunas mas nunca diminuindo o tamanho do elemento no qual definimos, mas quando aumentamos a tela, o conteudo nao expandira igual no auto fit, o conteudo manterá os 200px que definimos abaixo*/
+.conteudo {
+    display: grid;
+    padding: 3em;
+    grid-gap: 2em;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.conteudo p {
+    padding: 2em;
+    border-radius: .3em;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
+}
+

@@ -1,0 +1,25 @@
+.container > div {
+    border: 1px solid black;
+    background-color: blueviolet;
+    color: white;
+    font-size: 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto; /*Estou dizendo para separar em duas colunas*/
+    grid-template-rows: 50px; /**Estou dizendo para primeira linha ter 50px de altura*/
+}
+
+.conteudo > div {
+    border: 1px solid black;
+    background-color: rgb(50, 8, 88);
+    color: white;
+    font-size: 20px;
+}
+
+.conteudo {
+    display: grid;
+    grid-template-columns: 80px auto; /*Estou dizendo para que 1 coluna tenha 80px e a outra preencha auto*/
+}
+

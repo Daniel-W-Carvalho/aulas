@@ -1,0 +1,59 @@
+.columns > div {
+    border: 1px solid black;
+    background-color: blueviolet;
+    color: white;
+    font-size: 20px;
+}
+
+.columns {
+    display: grid;
+    grid-template-columns: repeat(3, auto); /*com o repeat columns, consigo definir quantas colunas e suas larguras, como no exemplo: repeat(3, auto) -> 3 colunas de tam automatico*/
+}
+
+/* -------------------------------------------------------- */
+
+.rows > div {
+    border: 1px solid black;
+    background-color: rgb(88, 177, 169);
+    color: white;
+    font-size: 20px;
+}
+
+.rows {
+    display: grid;
+    grid-template-rows: repeat(3, 50px); /*com o repeat rows, consigo definir quantas linhas e suas larguras, como no exemplo: repeat(3, 150px) -> 3 linhas de 150px*/
+}
+
+
+/* -------------------------------------------------------- */
+
+.rows-e-columns > div {
+    border: 1px solid black;
+    background-color: rgb(175, 177, 104);
+    color: white;
+    font-size: 20px;
+}
+
+.rows-e-columns {
+    display: grid;
+    grid-template: repeat(1, 50px) / repeat(2, auto); /*Essa é a versão reduzida do columns e row, iniciando-se pelo row(linha) e depois columns(colunas) sendo separados por umas barra (/) */
+}
+
+/* -------------------------------------------------------- */
+
+.gap > div {
+    border: 1px solid black;
+    background-color: rgb(78, 110, 197);
+    color: white;
+    font-size: 20px;
+}
+
+.gap {
+    display: grid;
+    grid-template: repeat(1, auto) / repeat(2, auto);
+    grid-gap: 20px 10px; /*Forma abreviada para dar espaçamento entre linhas e colunas, linha sempre vindo em primeiro lugar*/
+    grid-column-gap: 10px; /* espaçamento entre colunas*/
+    grid-row-gap: 20px; /* espaçamento entre linhas*/
+}
+
+

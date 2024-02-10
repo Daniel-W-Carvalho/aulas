@@ -1,0 +1,48 @@
+.vermelho {
+  background-color: red;
+}
+
+.laranja {
+  background-color: orange;
+}
+
+.amarelo {
+  background-color: yellow;
+}
+
+.verde {
+  background-color: green;
+}
+
+.azul {
+  background-color: blue;
+}
+
+.roxo {
+  background-color: violet;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(5, auto); /*repetindo 5 colunas e deixando tamanho automatico*/
+  grid-template-rows: repeat(3, auto);  /*selecionado 3 colunas e deixando tamanho automatico*/
+  grid-gap: 15px;   /*Espaçando em 15px todos os elementos */
+}
+
+.verde {
+  grid-column-start: 1; /*Estou definindo onde a coluna vai iniciar, ou seja, iniciará da primeira coluna*/
+  grid-column-end: 3; /*Estou definindo onde até a coluna finalizará, ou seja, finalizará até na terceira coluna*/
+
+  grid-column: 1 / 3; /*Essa é a mesma forma das duas de cima, mas em forma abreviada*/
+}
+
+.amarelo {
+  grid-row: 1 / 3; /*Em forma abreviada estou definindo que comece da primeira linha e vá até a 3 Linha*/
+}
+
+/*Obs. Mesmo definindo uma numero de coluna, nós sempre colocamos 1 numero a mais. Ex: se eu colocar que comece da 1ª Linha e vá até a 3ª, vamos ver que no css só vai ir até a 2ª linha e não preencherá a 3ª. Sendo assim, se quisermos preencher a 3ª linha, devemos colocar que finalizará na 4ª linha*/
+
+.roxo {
+  grid-column: 4 / span 2;  /*Com o SPAN, podemos definir até onde expandir, diferente da observação de cima, o Span defini certamente o numero da coluna, neste caso defini começar da quarta coluna e expandir em 2*/
+}
+

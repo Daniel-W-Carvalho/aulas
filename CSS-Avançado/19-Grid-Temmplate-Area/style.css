@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.cabecalho {
+    background-color: aquamarine;
+}
+
+.menu {
+    background-color: cornflowerblue;
+}
+
+.secao-principal {
+    background-color: hotpink;
+}
+
+.aside {
+    background-color: orangered;
+}
+
+.rodape {
+    background-color: green;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+
+.cabecalho {
+    grid-area: cabecalho; /*aqui estamos setando os nomes para usarmos no grid template areas. Obs: nao necessariamente precisa ser o nome da classe, poder ser qq nome*/
+}
+
+.menu {
+    grid-area: menu;
+}
+
+.secao-principal {
+    grid-area: principal;
+}
+
+.aside {
+    grid-area: aside;
+}
+
+.rodape {
+    grid-area: rodape;
+}
+
+/*Depois de setar o nome dos elementos*/
+
+.container {
+    display: grid;
+    /*esse grid template area iremos definir as linhas/colunas conforme os nomes que setamos acima */
+    grid-template-areas: "cabecalho cabecalho cabecalho" /*Definindo que a primeira linha o cabecalho ira ocupar 3 colunas*/
+    "menu principal aside" /*Definindo que na segunda linha virá a coluna menu, coluna principal e coluna aside*/
+    "rodape rodape rodape"; 
+    /*Obs, caso queiramos deixar um espaço vago, devemos preencher com (.) no lugar de qualquer nome.
+
+
+    /* FORMA ABREVIADA*/
+    grid: "cabecalho cabecalho cabecalho" 100px /*Definindo que a primeira linha o cabecalho ira ocupar 3 colunas e a linha terá 100px de altura*/
+    "menu principal aside" 200px /*Definindo que na segunda linha virá a coluna menu, coluna principal e coluna aside - a linha terá 200px de altura*/
+    "rodape rodape rodape" 150px / 100px auto 150px; /*Definindo que na terceira linha as 3 colunas serão rodapes e a linha terá 150px de altura e depois do / estou definindo a largura das colunas, ou seja, primeira coluna terá 100px, coluna do meio será automatica e a ultima coluna terá 150px*/
+}

@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 900px;
+    max-height: 415px;
+    margin: 0 auto;
+    font-family: "Roboto", sans-serif;
+}
+
+.bmw-main {
+    width: 543px;
+    height: 217px;
+}
+
+.bmw-azul {
+    width: 270px;
+    height: 56px;
+}
+
+.bmw-costas {
+    width: 101px;
+    height: 71px;
+}
+
+ /* {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+ {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  } */
+  

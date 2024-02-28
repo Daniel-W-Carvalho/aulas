@@ -8,4 +8,6 @@ Neste repositório são adicionados frequentemente arquivos de aulas, anotaçõe
 - HTML
 - CSS
 - JS
+- React
+- TypeScript
 

@@ -8,4 +8,3 @@ console.log(Nome)
 console.log(emailPessoa)
 console.log(telefonePessoa)
 
-

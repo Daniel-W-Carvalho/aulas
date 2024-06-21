@@ -70,8 +70,8 @@
 
 //ORDEM DE OPERADORES LOGICOS
 // PRIMEIRO (NÃO) -> !
-// SEGUNDO (E) -> ||
-// TERCEIRO (OU) -> && 
+// SEGUNDO (OU) -> ||
+// TERCEIRO (E) -> && 
 
 
 // Exemplo - ordem de operadores numa mesma linha

@@ -17,7 +17,7 @@ for (let i = 0; i < frutasTamanho; i++){
 //OUTRA FORMA USANDO forEach - 
 //O método forEach() em JavaScript é utilizado para iterar sobre os elementos de um array e executar uma função de callback para cada elemento
 
-frutas.forEach(function(item, indice, array){ //posso apagar o indice e o array que funciona do mesmo jeito
+frutas.forEach(function(item, indice, array){ // o for each pode receber até 3 parametros, sendo o primeiro o item do array, segundo o indice do array sempre começando pelo 0.  E o terceiro paramentro sera o array todo. Caso queira ver é só dar console.log em cada paramentro
     console.log('fruta: ' + item);
 })
 

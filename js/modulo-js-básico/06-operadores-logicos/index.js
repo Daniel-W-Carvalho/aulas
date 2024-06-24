@@ -61,6 +61,10 @@
     F + V = True
     F + F = False
 
+    Resumo
+    || (OR): Retorna o primeiro valor verdadeiro (truthy) que encontrar. Se nenhum valor verdadeiro for encontrado, retorna o último valor.
+    && (AND): Retorna o primeiro valor falso (falsy) que encontrar. Se todos os valores forem verdadeiros, retorna o último valor.
+
     !() - > NOT - sinal de negação, insinuando que devemos inverter os valores reais, por exemplo:
     const a = 1
     const b = 2

@@ -21,6 +21,9 @@ frutas.forEach(function(item, indice, array){ // o for each pode receber até 3 
     console.log('fruta: ' + item);
 })
 
+// Forma reduzida com arrow function
+// fruta.forEach((item, indice, array) => console.log(indice));
+
 //------------------------------------------------------------------
 
 // .push - Adicionar elementos no final de um array

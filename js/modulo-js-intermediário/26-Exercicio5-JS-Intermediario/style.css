@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.content{
+    position: relative;
+}
+
+.opacity{
+    opacity: 0.6;
+    cursor: default;
+}
+
+.btn-left{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    position: absolute;
+    left: 5px;
+    top: 400px;
+    z-index: 5;
+}
+
+.btn-right{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    position: absolute;
+    right: 5px;
+    top: 400px;
+    z-index: 5;
+}
+
+
+.secao{
+    height: 100vh;
+    padding-left: 10%;
+    padding-top: 10%;
+    position: absolute;
+}
+
+.bloco{
+    background-color: aliceblue;
+    width: 25%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px 20px;
+}
+
+.secao1 {
+    background-color: aqua;
+    z-index: 3;
+}
+
+.secao2 {
+    background-color: rgb(65, 100, 100); 
+    z-index: 2;  
+}
+
+.secao3 {
+    background-color: rgb(123, 83, 231);
+    z-index: 1;
+}
+
+.secao4 {
+    background-color: rgb(231, 172, 83);
+    z-index: 0;
+}
+
+/* RESPOSTA */

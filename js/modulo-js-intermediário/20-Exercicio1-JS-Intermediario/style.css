@@ -1,0 +1,17 @@
+.quad-azul{
+    width: 250px;
+    height: 250px;
+    background-color: blue;
+}
+
+.quad-vermelho{
+    width: 250px;
+    height: 250px;
+    background-color: red;
+}
+
+.quad-amarelo{
+    width: 250px;
+    height: 250px;
+    background-color: yellow;
+}

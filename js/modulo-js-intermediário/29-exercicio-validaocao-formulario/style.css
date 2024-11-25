@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.conteudo{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    background-image: url(./img/Design\ sem\ nome\ \(2\)\ 11.png);
+    background-position: center;
+    background-repeat: repeat-x;
+    background-size: contain;
+}
+
+.conteudo .mensagem-duvida{
+    width: 350px;
+    color: #fff;
+}
+
+.conteudo .mensagem-duvida .titulo{
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 15px;
+    font-family: "Roboto", sans-serif;
+}
+
+.conteudo .mensagem-duvida .sub-titulo{
+    width: 300px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    line-height: 20px;
+}
+
+.cadastro {
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 378px;
+    width: 340px;
+    border-radius: 5px;
+}
+
+.cadastro input {
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.cadastro .input-cadastro:last-of-type{
+    height: 100px;
+    padding-bottom: 60px;
+}
+
+.aviso{
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+}
+
+.botao-enviar{
+    background-color: #3CCC87;
+    border: none;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.botao-enviar a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    width: 100%; 
+    height: 100%;
+    align-content: center;
+}
+
+
+/* QUANDO ESQUECER DE PREENCHER A COLUNA */
+
+.alerta{
+    font-family: "Roboto", sans-serif;
+    color: #F52E2E;
+    padding-left: 10px;
+    font-size: 10px;
+    margin-top: -20px;
+    margin-bottom: -10px;
+    display: none;
+}
+
+.input-cadastro.error + .alerta { /* O <p class="alerta"> que está logo após o campo <input> será exibido (display: block) somente quando o campo <input> tiver a classe error. */
+    display: block; /* Exibe apenas se o input tiver a classe "error" */
+}
+.input-cadastro.error {
+    border-color: #F52E2E; /* Destaca o input com borda vermelha */
+}

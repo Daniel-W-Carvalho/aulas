@@ -53,3 +53,14 @@ console.log('fazendo café')
 // Exemplo em um contexto assíncrono:
 // Falha ao conectar com o servidor.
 // Ocorreu um erro ao processar um arquivo.
+
+//O QUE É UMA PROMISE?
+//Sáo objetos no JavaScript que representam um valor que pode ou não estar disponivel no futuro, ou seja, uma operação assincrona e seu valor resultante.
+// * Pending: estado inicial, nem cumprido nem rejeitado
+// * Fulfilled: Significa que a opreção foi concluída com sucesso.
+// * Rejected: Signifca que a operação falhou
+//E PQ SÃO TÃO CRUCIAIS?
+//Pq nos permite escrever código assincrono de maneira mais elegivel e gerenciável.
+
+//https://prnt.sc/wUHuScagHmo_
+//https://prnt.sc/e54Mpr2O9WDR
